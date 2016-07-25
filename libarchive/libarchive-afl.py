@@ -3,8 +3,6 @@
 import os
 import subprocess
 import shutil
-import sys
-sys.path.insert(0, os.getcwd() + '/..')
 import libafl
 
 project_dir = os.path.dirname(os.path.realpath(__file__))
