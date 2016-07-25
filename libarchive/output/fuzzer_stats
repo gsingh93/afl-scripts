@@ -1,0 +1,25 @@
+start_time     : 1469411410
+last_update    : 1469411412
+fuzzer_pid     : 22396
+cycles_done    : 0
+execs_done     : 224
+execs_per_sec  : 126.98
+paths_total    : 6
+paths_favored  : 1
+paths_found    : 5
+paths_imported : 0
+max_depth      : 2
+cur_path       : 0
+pending_favs   : 1
+pending_total  : 6
+variable_paths : 2
+bitmap_cvg     : 0.72%
+unique_crashes : 0
+unique_hangs   : 0
+last_path      : 1469411412
+last_crash     : 0
+last_hang      : 0
+exec_timeout   : 40
+afl_banner     : libarchivetest-afl
+afl_version    : 2.13b
+command_line   : afl-fuzz -T libarchivetest-afl -i input -o output ./libarchivetest-afl @@
